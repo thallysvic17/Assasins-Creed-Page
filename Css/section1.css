@@ -1,0 +1,164 @@
+.section1{
+    background-image: url(./Img/BG\ photo.png);
+    position: absolute;
+    width: 1939px;
+    height: 1092.5px;
+    left: -19px;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 0px;
+    gap: 1121px;
+    position: absolute;
+    width: 1592.24px;
+    height: 85px;
+    left: 160px;
+    top: 40px;
+}
+
+.logo img{
+    flex: none;
+    position: absolute;
+    width: 259px;
+    height: 85px;
+}
+
+.nav-center ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    position: absolute;
+    width: 1121px;
+    height: 25px;
+    left: 544px;
+    top: 20px;
+    list-style: none;
+    
+}
+
+.links li >a{
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0,1em;
+    text-align: right;
+}
+
+.links li >a:hover{
+    color: rgb(193, 222, 248);
+}
+
+.box-center{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    gap: 79px;
+    width: 734px;
+    height: 302.18px;
+    left: 593px;
+    top: 536px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 734px;
+    height: 145px;
+}
+.texts h1{
+    font-family: 'Bebas Neue',cursive;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 100px;
+    letter-spacing: 3px;
+    font-size: 100px;
+    text-align: center;
+    width: 734px;
+    height: 100px;
+}
+
+.texts h5{
+    width: 504px;
+    height: 30px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.purchase-now{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 45px;
+    gap: 10px;
+    width: 337px;
+    height: 78.18px;
+    background: linear-gradient(194.68deg, rgba(158, 218, 209, 0.1) 11.27%, rgba(61, 179, 162, 0.1) 90.4%);
+    border: 2px solid #3DB8A5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(17.5px);
+    border-radius: 6px;
+}
+
+.purchase-now #Price{
+    width: 247px;
+    height: 38.18px;
+    position: absolute;
+    display: flex;
+    position: absolute;
+}
+
+#Price a{
+height: 28px;
+color: #3DB8A5;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+text-decoration: none;
+}
+
+#Price a:hover{
+    color: #309485;
+}
+
+span{
+position: absolute;
+width: 38px;
+left: 140px;
+top: 14px;
+height: 0px;
+border: 1px solid #3DB8A5;
+transform: rotate(90deg);
+}
+
+#Price p a{   
+position: absolute;
+height: 28px;
+left: 72%;
+right: 13.35%;
+top: 1px;
+}
