@@ -4,4 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    max-width: 1939px;
+}
+
+.Container{
+    max-width: 1939px;
+    width: 100vw;
+    height: 100vh;
 }
