@@ -1,6 +1,6 @@
 .section2{
     background-image: url(./Img/bg\ image\ 2.jpg);
-    position: absolute;
+    position: relative;
     top:1200px;
     max-width: 1939px;
     width: 100%;
@@ -8,4 +8,110 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.content-section2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 122px;
+    position: absolute;
+    width: 1563.99px;
+    height: 666px;
+    left: 100px;
+    top: 245px;
+    }
+
+.left{
+    width: 50%;
+    height: 533px;
+} 
+
+.tittle-section2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Bebas Neue', cursive;
+    width: 625px;
+    gap: 4px;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.tittle-section2 > #h6 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight:700;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+
+.tittle-section2 >h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+#subtittle-section2{  
+    position: absolute;
+    width: 483px;
+    height: 270px;
+    left: 153px;
+    top: 263px;
+}
+
+#subtittle-section2 > p{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+    right:15%;
+}
+
+
+.right{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    width: 50%;
+    height: 611px;
+    box-sizing: border-box;
+
+}
+
+
+.one-time{
+    max-width: 585px;
+    max-height: 611px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.one-time > #i23{
+    width: 503px;
+    height: 611px;
+}
+
+.one-time > #i24{
+    width: 503px;
+    height: 611px;
+}
+
+.one-time > #i25{
+    width: 370px;
+    height: 400px;
 }

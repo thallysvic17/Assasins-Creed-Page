@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./Css/section1.css">
     <link rel="stylesheet" href="./Css/btn-story.css">
     <link rel="stylesheet" href="./Css/section2.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <title>Assasins Creed</title>
 </head>
 <body>
@@ -49,20 +51,46 @@
                 </div>
             </div>
         </section>
-        </div>
+
         <section class="section2">
 
             <div class="content-section2">
                 <div class="left">
-
+                    <div class="tittle-section2">
+                        <h6 id="h6">What is acv?</h6>
+                        <h1>Assassin's Creed</h1>
+                        <h1>Valhalla</h1>
+                    </div>
+                    <div id="subtittle-section2">
+                        <p>
+                            When focusing on the main objectives, Assassin's Creed Valhalla is about 59½ Hours in length. If you're a gamer that strives to see all aspects of the game, you are likely to spend around 136 Hours to obtain 100% completion.<br>you start getting comfortable with the world and the changes needed to play stealhilty.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="right">
-            
+                    <div class="one-time">
+                        <img id="i23" src="./Css/Img/Rectangle 23.png" alt="viking igreja">
+                        <img  id="i24" src="./Css/Img/Rectangle 24.png" alt="viking neve">
+                    </div>
                 </div>
             </div>
-
         </section>
     </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.one-time').slick({
+                autoplay : true,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
+    </script>
 </body>
 </html>

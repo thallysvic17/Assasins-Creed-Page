@@ -12,3 +12,7 @@
     width: 100vw;
     height: 100vh;
 }
+
+body{
+    background-color: rgba(0, 0, 0, 0.993);
+}
